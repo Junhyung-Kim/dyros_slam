@@ -18,8 +18,9 @@ cd catkin_ws/src/multisense/multisense_bringup
 sudo ./configureNetwork.sh
 ```
 
-If an error occured, you should revise the script file.(configureNetwork.sh)
-change 'eth0' -> 'the MultiSense IP' in your script.
+If an error occured, you should revise the script file(configureNetwork.sh).
+
+Change 'eth0' -> 'the MultiSense IP' in the script file(configureNetwork.sh).
 
 you can check your MultiSense ip.
 ```
