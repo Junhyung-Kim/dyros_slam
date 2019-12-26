@@ -1,6 +1,6 @@
 # dyros_slam
 
-This project uses Multisense SL for slam. (https://carnegierobotics.com/multisense-slb)
+This project uses Multisense SL for SLAM. (https://carnegierobotics.com/multisense-slb)
 
 ## Install Multisense SL driver & ROS Package
 ```
