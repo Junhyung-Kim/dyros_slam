@@ -1,6 +1,6 @@
 # dyros_slam
 
-This project uses Multisense SL for slam (https://carnegierobotics.com/multisense-slb)
+This project uses Multisense SL for slam. (https://carnegierobotics.com/multisense-slb)
 
 ## Install Multisense SL driver & ROS Package
 ```
@@ -12,4 +12,15 @@ cd ..
 catkin_make
 ```
 
+## Ethercat configuration for Multisense SL
+```
+cd catkin_ws/src/multisense/multisense_bringup
+sudo ./configureNetwork.sh
+```
 
+If an error occured, you should revise the script file.(configureNetwork.sh)
+change 'eth0' -> 'the MultiSense IP' in your script.
+you can check your multisense ip.
+```
+ifconfig
+```
