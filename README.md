@@ -20,7 +20,17 @@ sudo ./configureNetwork.sh
 
 If an error occured, you should revise the script file.(configureNetwork.sh)
 change 'eth0' -> 'the MultiSense IP' in your script.
-you can check your multisense ip.
+
+you can check your MultiSense ip.
 ```
 ifconfig
+```
+
+## Launch the project
+```
+cd catkin_ws/src
+git clone 
+cd ..
+catkin_make
+roslaunch dyros_slam multisense.launch
 ```
